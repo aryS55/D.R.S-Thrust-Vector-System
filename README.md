@@ -143,13 +143,5 @@ General tuning notes (also printed by the analyzer):
 - Oscillates and never settles → decrease Kp and/or increase Kd
 - PID output pinned at limits (clipping) → reduce Kp or raise `MAX_FIN_DEG`
 
-## Known Limitations / Open Items
-
-- Accelerometer leveling is disabled; angle estimates are gyro-only and will drift over time.
-- `ACC_CONF`/`GYR_CONF` register values are marked for verification against the BMI323 datasheet's bitfield tables — the read/write protocol is solid, but exact range/ODR bit positions should be double-checked.
-- No throttle/fin-authority gain scheduling yet (motor not wired up).
-- SD SPI clock is fixed at 4 MHz for reliability on the current hardware; higher speeds (e.g. `SD_SCK_MHZ(24)`) are untested.
-
-## License
-
-_Add a license of your choice (e.g. MIT) before publishing._
+Disclaimer
+AI assisted with code and documentation
