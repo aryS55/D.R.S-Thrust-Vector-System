@@ -143,5 +143,6 @@ General tuning notes (also printed by the analyzer):
 - Oscillates and never settles → decrease Kp and/or increase Kd
 - PID output pinned at limits (clipping) → reduce Kp or raise `MAX_FIN_DEG`
 
-Disclaimer
+##Disclaimer
+
 AI assisted with code and documentation
