@@ -48,7 +48,7 @@ Every 5 ms the firmware reads the IMU, estimates tilt, computes fin movements, s
 | Resource | Description | Link |
 |---|---|---|
 | Drone CAD | Airframe, EDF duct, fin and servo mounts, electronics bay | `[Add CAD model link here]` |
-| Bill of materials | Components, quantities, specs, purchase links | (https://docs.google.com/spreadsheets/d/1vA3PeWrljAsKrt4Yhg0Rkp3cE5VI5zf5TELnXwBfbgM/edit?gid=0#gid=0) |
+| Bill of materials | Components, quantities, specs, purchase links | https://docs.google.com/spreadsheets/d/1vA3PeWrljAsKrt4Yhg0Rkp3cE5VI5zf5TELnXwBfbgM/edit?gid=0#gid=0 |
 | **PCB Gerber files** | Zip for ordering the custom PCB | `[Add PCB Gerber zip link here]` |
 | Test rig CAD | Rig used for PID tuning and other testing | `[Add testing rig CAD link here]` |
 | Test rig bill of materials | Rig parts list (Google Sheet) | `[Add testing rig parts list link here]` |
