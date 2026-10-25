@@ -1,8 +1,8 @@
 # D.R.S. — Delivery Rocket System (Thrust Vectoring Monocopter)
 
-D.R.S. is a single-motor, ducted-fan (EDF) rocket that balances itself by steering its exhaust with four servo-driven fins. The names **D.R.S.** and **Thrust Vectoring Monocopter** are used interchangeably.
+D.R.S. is a single-motor, ducted-fan (EDF) rocket that balances itself by steering its exhaust with four servo-driven fins.
 
-**End goal (aspirational, not implemented):** a small delivery vehicle that takes off easily, transitions into horizontal flight, delivers a small item, and lands, essentially a VTOL.
+**End goal:** a small delivery vehicle that takes off easily, transitions into horizontal flight, delivers a small item, and lands, essentially a VTOL.
 
 **What exists today:** a flight controller that keeps the rocket upright and lets a pilot tilt it and spin it with a radio. It does not fly itself anywhere.
 
@@ -15,7 +15,7 @@ D.R.S. is a single-motor, ducted-fan (EDF) rocket that balances itself by steeri
 - **Pilot link:** FlySky FS-iA10B receiver using **iBUS** (the code requires iBUS).
 - **Actuators:** four SG90 servos moving four fins (MG90 servos also work, same size) and one ESC driving a 70 mm EDF.
 - **Logging (optional, recommended):** micro-SD card for recording and analysing flights.
-- **PCB (highly recommended):** a custom PCB cuts wiring and weight. LEDs exist only on the PCB.
+- **PCB (highly recommended):** a custom PCB cuts wiring and weight.
 
 Every 5 ms the firmware reads the IMU, estimates tilt, computes fin movements, sets the motor throttle from the stick (after safety checks) and logs data.
 
