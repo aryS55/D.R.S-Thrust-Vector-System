@@ -36,7 +36,7 @@ Every 5 ms the firmware reads the IMU, estimates tilt, computes fin movements, s
 
 ---
 
-## 3. Hardware and resources (placeholders: nothing here exists yet)
+## 3. Hardware and resources
 
 | Resource | Description | Link |
 |---|---|---|
