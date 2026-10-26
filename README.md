@@ -34,13 +34,6 @@ Every 5 ms the firmware reads the IMU, estimates tilt, computes fin movements, s
 | SD logs, CSV columns, LEDs, serial output | [docs/logging-and-diagnostics.md](docs/logging-and-diagnostics.md) |
 | Building, uploading, testing, tuning parameters | [docs/setup-testing-and-tuning.md](docs/setup-testing-and-tuning.md) |
 
-```text
-.
-├── README.md
-├── src/tvc_rocket4/tvc_rocket4.ino   <- the entire firmware
-└── docs/                              <- the eight documents above
-```
-
 ---
 
 ## 3. Hardware and resources (placeholders: nothing here exists yet)
