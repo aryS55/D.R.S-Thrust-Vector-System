@@ -49,12 +49,12 @@ Every 5 ms the firmware reads the IMU, estimates tilt, computes fin movements, s
 |---|---|---|
 | Drone CAD | Airframe, EDF duct, fin and servo mounts, electronics bay | `[Add CAD model link here]` |
 | Bill of materials | Components, quantities, specs, purchase links | https://docs.google.com/spreadsheets/d/1vA3PeWrljAsKrt4Yhg0Rkp3cE5VI5zf5TELnXwBfbgM/edit?gid=0#gid=0 |
-| **PCB Gerber files** | Zip for ordering the custom PCB | pcb/Gerber_PCB1_2026-10-25.zip |
-| Test rig CAD | Rig used for PID tuning and other testing | `[Add testing rig CAD link here]` |
-| Test rig bill of materials | Rig parts list (Google Sheet) | `[Add testing rig parts list link here]` |
-| Data Explorer | Standalone zip for exploring flight data | src/tvc-explorer.zip |
-| Assembly video: drone | Build walkthrough | `[Add drone assembly video link here]` |
-| Assembly video: test rig | Build walkthrough | `[Add test rig assembly video link here]` |
+| **PCB Gerber files** | Zip for ordering the custom PCB | [pcb/Gerber_PCB1_2026-10-25.zip](pcb/Gerber_PCB1_2026-10-25.zip) |
+| Test rig CAD | Rig used for PID tuning and other testing | Coming soon |
+| Test rig bill of materials | Rig parts list (Google Sheet) | Coming soon |
+| Data Explorer | Standalone zip for exploring flight data | [src/tvc-explorer.zip](src/tvc-explorer.zip) |
+| Assembly video: drone | Build walkthrough | https://youtu.be/igzx80km6iA and https://youtu.be/rnvipovxpSg (In-Depth video coming soon)|
+| Assembly video: test rig | Build walkthrough | Coming soon |
 
 **Key requirements:** 70 mm EDF motor; **6S battery heavily recommended** (4S may not produce enough thrust); lower-mAh batteries are recommended because of weight limits. No ESC calibration is needed.
 
