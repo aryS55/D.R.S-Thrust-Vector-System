@@ -79,5 +79,3 @@ Details: [docs/setup-testing-and-tuning.md](docs/setup-testing-and-tuning.md).
 - Yaw during throttle changes: the single high-RPM motor acts like a gyroscope, so changing throttle spins the craft by reaction torque. The controller compensates this reasonably for slow changes but is weaker when the throttle changes quickly. A throttle slew limit and a dynamic feedforward are included to help.
 
 **Not implemented:** no heading hold, position hold, altitude hold, or any other autonomous flight; no transition to horizontal flight, no delivery mechanism.
-
-**Testing:** no automated tests exist in the repository.
