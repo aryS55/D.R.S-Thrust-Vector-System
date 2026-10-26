@@ -52,7 +52,7 @@ Every 5 ms the firmware reads the IMU, estimates tilt, computes fin movements, s
 | **PCB Gerber files** | Zip for ordering the custom PCB | pcb/Gerber_PCB1_2026-10-25.zip |
 | Test rig CAD | Rig used for PID tuning and other testing | `[Add testing rig CAD link here]` |
 | Test rig bill of materials | Rig parts list (Google Sheet) | `[Add testing rig parts list link here]` |
-| Data Explorer | Standalone zip for exploring flight data | `[Add Data Explorer zip link here]` |
+| Data Explorer | Standalone zip for exploring flight data | src/tvc-explorer.zip |
 | Assembly video: drone | Build walkthrough | `[Add drone assembly video link here]` |
 | Assembly video: test rig | Build walkthrough | `[Add test rig assembly video link here]` |
 
